@@ -1,7 +1,41 @@
+# AWS SAM
 .aws-sam/
+samconfig-local.toml
+packaged.yaml
+api_url.txt
+
+# Credenciales (nunca deben entrar al repo)
+.env
+.env.*
+.aws/
+credentials
+*.pem
+*.key
+*.ppk
+
+# Python
 __pycache__/
-.git
-tests
-pyenvunittests
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+todo-list-aws/
+pyenvunittests/
+
+# Cobertura y tests
 .coverage
 coverage.xml
+htmlcov/
+.tox/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
